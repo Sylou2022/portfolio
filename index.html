@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Sylvain Diouf — Data Analyst spécialisé en Data, BI, Python, SQL et IA.">
+  <title>Sylvain Diouf — Data Analyst | Data × BI × IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <a class="brand" href="#top">Sylvain Diouf<span>.</span></a>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav id="menu">
+      <a href="#data">La donnée</a>
+      <a href="#projects">Projets</a>
+      <a href="#gallery">Visualisations</a>
+      <a href="#experience">Parcours</a>
+      <a href="#stack">Stack</a>
+    </nav>
+    <!-- Place ton CV dans assets/CV-Sylvain-Diouf.pdf -->
+    <a class="nav-cta" href="assets/CV-Sylvain-Diouf.pdf" download="CV-Sylvain-Diouf.pdf">
+      <i class="fa-solid fa-download"></i> Télécharger mon CV
+    </a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="status"><span class="pulse"></span> Data Analyst · disponible pour de nouveaux défis</p>
+        <h1>Je transforme la donnée<br><span class="grad">en décisions.</span></h1>
+        <p class="hero-text">
+          Data Analyst avec 3 ans d’expérience en analyse, reporting BI, automatisation et IA.
+          Je construis des solutions qui rendent la donnée utile, concrètement, aux équipes métier.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="assets/CV-Sylvain-Diouf.pdf" download="CV-Sylvain-Diouf.pdf">
+            <i class="fa-solid fa-file-arrow-down"></i> Télécharger mon CV
+          </a>
+          <a class="btn secondary" href="#projects">Voir mes projets</a>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:sylvaindiouf18@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+          <a href="https://www.linkedin.com/in/sylvain-diouf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span></a>
+          <a href="https://github.com/Sylou2022?tab=repositories" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+          <a href="https://assistant-data-ai.onrender.com/?__theme=light" target="_blank" rel="noopener" aria-label="Assistant Data AI"><i class="fa-solid fa-robot"></i><span>Assistant Data AI</span></a>
+          <span class="discord-contact" title="Discord"><i class="fa-brands fa-discord"></i><span>Sylouuu#4271</span></span>
+        </div>
+
+        <dl class="mini-proof">
+          <div><dt data-count="3" data-suffix="+">3+</dt><dd>ans d’expérience</dd></div>
+          <div><dt data-count="10" data-suffix="K+">10K+</dt><dd>verbatims analysés</dd></div>
+          <div><dt data-count="100" data-suffix="+">100+</dt><dd>collaborateurs évalués</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual">
+        <figure class="photo">
+          <img src="assets/sylvain.jpg" alt="Portrait de Sylvain Diouf">
+          <figcaption><strong>Sylvain Diouf</strong><span>Data Analyst · Data × BI × IA</span></figcaption>
+        </figure>
+
+        <!-- Démo animée : question → SQL → insight -->
+        <div class="demo" aria-label="Démonstration animée : une question métier devient une requête SQL puis un insight">
+          <div class="demo-bar"><i></i><i></i><i></i><span>assistant-data-ai</span></div>
+          <p class="demo-q" id="demoQ"></p>
+          <pre class="demo-sql" id="demoSql"></pre>
+          <div class="demo-chart" id="demoChart">
+            <i style="--h:38%"></i><i style="--h:55%"></i><i style="--h:46%"></i><i style="--h:81%"></i><i style="--h:68%"></i>
+          </div>
+          <p class="demo-out" id="demoOut"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Technologies">
+      <div class="ticker-track">
+        <span>Python</span><span>SQL</span><span>Power BI</span><span>Excel</span><span>Databricks</span><span>Machine Learning</span><span>NLP</span><span>TensorFlow</span><span>IA</span>
+        <span>Python</span><span>SQL</span><span>Power BI</span><span>Excel</span><span>Databricks</span><span>Machine Learning</span><span>NLP</span><span>TensorFlow</span><span>IA</span>
+      </div>
+    </section>
+
+    <!-- ============ LA DONNÉE EN ENTREPRISE ============ -->
+    <section class="section" id="data">
+      <div class="section-head">
+        <div>
+          <h2>Une donnée n’a de valeur que<br>si elle débouche sur une action.</h2>
+        </div>
+        <p>Dans une entreprise, la donnée est partout : appels, CRM, fichiers, outils métier. Mon travail est de la rendre fiable, lisible et décisionnelle.</p>
+      </div>
+
+      <div class="data-layout reveal">
+        <div class="steps" role="tablist" aria-label="Cycle de vie de la donnée">
+          <button role="tab" class="step active" aria-selected="true" data-step="0"><b>1</b> Collecter</button>
+          <button role="tab" class="step" aria-selected="false" data-step="1"><b>2</b> Structurer</button>
+          <button role="tab" class="step" aria-selected="false" data-step="2"><b>3</b> Analyser</button>
+          <button role="tab" class="step" aria-selected="false" data-step="3"><b>4</b> Décider</button>
+        </div>
+
+        <div class="step-panel" id="stepPanel" role="tabpanel" aria-live="polite">
+          <h3 id="stepTitle"></h3>
+          <p id="stepText"></p>
+          <p class="step-example"><i class="fa-solid fa-quote-left"></i> <span id="stepExample"></span></p>
+          <div class="tags" id="stepTags"></div>
+        </div>
+
+        <!-- Image optionnelle : schéma / infographie sur la donnée en entreprise -->
+        <figure class="shot tall" data-hint="assets/data-en-entreprise.png">
+          <img src="assets/data-en-entreprise.png" alt="Schéma : la donnée au service de l’entreprise">
+
+        </figure>
+      </div>
+
+      <div class="benefits">
+        <article class="benefit reveal">
+          <i class="fa-solid fa-compass"></i>
+          <h3>Piloter avec des faits</h3>
+          <p>Des KPI partagés remplacent les ressentis : chaque équipe lit la même réalité.</p>
+        </article>
+        <article class="benefit reveal">
+          <i class="fa-solid fa-bolt"></i>
+          <h3>Gagner du temps</h3>
+          <p>Automatiser les traitements récurrents libère les équipes pour l’analyse et l’action.</p>
+        </article>
+        <article class="benefit reveal">
+          <i class="fa-solid fa-eye"></i>
+          <h3>Voir ce qu’on ne voyait pas</h3>
+          <p>Le NLP et le machine learning révèlent des irritants et des tendances cachés dans le texte.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section class="section projects-section" id="projects">
+      <div class="section-head">
+        <div><h2>Des projets qui montrent l’impact,<br>pas seulement les outils.</h2></div>
+      </div>
+
+      <!-- Projet 1 : NLP UGIPS -->
+      <article class="project dark reveal">
+        <div class="project-content">
+          <p class="project-label">Expérience · UGIPS Gestion (AXA)</p>
+          <h3>NLP et pilotage de la qualité client</h3>
+          <p>Transformer plus de 10 000 retours clients, issus d’appels retranscrits, en indicateurs capables d’orienter les actions managériales.</p>
+          <div class="impact-row">
+            <div><b>10K+</b><span>verbatims analysés</span></div>
+            <div><b>100+</b><span>collaborateurs</span></div>
+            <div><b>20</b><span>managers</span></div>
+          </div>
+          <div class="tags light"><span>Python</span><span>TensorFlow</span><span>NLP</span><span>Power BI</span></div>
+        </div>
+
+        <div class="project-media nlp-media">
+          <!-- Images de contexte : l'entreprise / le projet (2 images côte à côte) -->
+          <figure class="shot" data-hint="assets/ugips-gestion-1.png">
+            <img src="assets/ugips-gestion-1.png" alt="UGIPS GESTION — contexte du projet NLP">
+            <figcaption>UGIPS GESTION</figcaption>
+          </figure>
+          <figure class="shot" data-hint="assets/ugips-gestion-2.png">
+            <img src="assets/ugips-gestion-2.png" alt="UGIPS GESTION — équipe ou environnement de travail">
+
+          </figure>
+          <!-- Graphiques du projet -->
+          <figure class="shot chart" data-hint="assets/nlp-sentiments.png">
+            <img src="assets/nlp-sentiments.png" alt="Graphique : analyse des sentiments">
+            <figcaption>Analyse des sentiments</figcaption>
+          </figure>
+          <figure class="shot chart" data-hint="assets/nlp-themes.png">
+            <img src="assets/nlp-themes.png" alt="Graphique : thématiques et irritants">
+            <figcaption>Thématiques et irritants</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- Projet 2 : Assistant Data AI -->
+      <article class="project light reveal">
+        <div class="project-content">
+          <p class="project-label">Projet personnel · Data et IA</p>
+          <div class="title-row">
+            <!-- Icône : dépose ton fichier dans assets/assistant-data-ai-icon.png -->
+            <img class="app-icon" src="assets/assistant-data-ai-icon.png" alt="Icône Assistant Data AI" onerror="this.style.display='none'">
+            <h3>Assistant Data AI en langage naturel</h3>
+          </div>
+          <p>Un prototype conversationnel qui transforme une question métier en requête SQL, l’exécute en lecture seule et restitue les résultats en tableaux et visualisations.</p>
+          <ol class="flow">
+            <li>Question métier</li><li>SQL généré</li><li>Validation</li><li>Insight</li>
+          </ol>
+          <div class="tags"><span>Python</span><span>Gradio</span><span>SQL</span><span>IA</span></div>
+          <a class="btn primary app-btn" href="https://assistant-data-ai.onrender.com/?__theme=light" target="_blank" rel="noopener">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir l’application
+          </a>
+        </div>
+
+        <div class="project-media">
+          <!-- Vidéo de présentation : dépose ton fichier dans assets/ -->
+          <div class="video-frame" id="videoFrame">
+            <video id="demoVideo" controls preload="metadata" playsinline poster="assets/assistant-data-ai-poster.jpg">
+              <source src="assets/assistant-data-ai-demo.mp4" type="video/mp4">
+              <!-- Optionnel : <source src="assets/assistant-data-ai-demo.webm" type="video/webm"> -->
+            </video>
+            <button class="play" id="playBtn" aria-label="Lire la vidéo de présentation"><i class="fa-solid fa-play"></i></button>
+            <div class="video-empty" id="videoEmpty" hidden>
+              <i class="fa-solid fa-film"></i>
+              <p>Vidéo à ajouter :<br><code>assets/assistant-data-ai-demo.mp4</code></p>
+            </div>
+          </div>
+          <p class="media-caption"><i class="fa-solid fa-circle status-dot"></i> Application en ligne · démo en vidéo</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ GALERIE ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="section-head">
+        <div><h2>Visualisations et dashboards.</h2></div>
+        <p>Une sélection de graphiques issus de mes analyses. Clique sur une image pour l’agrandir.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrer les visualisations">
+        <button class="chip active" data-filter="all">Tout</button>
+        <button class="chip" data-filter="powerbi">Power BI</button>
+        <button class="chip" data-filter="python">Python</button>
+        <button class="chip" data-filter="nlp">NLP</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Pour ajouter un graphique : copie un <figure>, change src, alt, data-cat et la légende -->
+        <figure class="shot chart zoomable" data-cat="powerbi" data-hint="assets/graphs/powerbi-kpi.png">
+          <img src="assets/graphs/powerbi-kpi.png" alt="Dashboard Power BI — suivi des KPI">
+          <figcaption>Power BI · suivi des KPI</figcaption>
+        </figure>
+        <figure class="shot chart zoomable" data-cat="powerbi" data-hint="assets/graphs/powerbi-qualite.png">
+          <img src="assets/graphs/powerbi-qualite.png" alt="Dashboard Power BI — qualité client">
+          <figcaption>Power BI · qualité client</figcaption>
+        </figure>
+        <figure class="shot chart zoomable" data-cat="nlp" data-hint="assets/graphs/nlp-wordcloud.png">
+          <img src="assets/graphs/nlp-wordcloud.png" alt="Nuage de mots des verbatims clients">
+          <figcaption>NLP · nuage de mots des verbatims</figcaption>
+        </figure>
+        <figure class="shot chart zoomable" data-cat="nlp" data-hint="assets/graphs/nlp-emotions.png">
+          <img src="assets/graphs/nlp-emotions.png" alt="Répartition des émotions détectées">
+          <figcaption>NLP · répartition des émotions</figcaption>
+        </figure>
+        <figure class="shot chart zoomable" data-cat="python" data-hint="assets/graphs/python-tendances.png">
+          <img src="assets/graphs/python-tendances.png" alt="Analyse de tendances en Python">
+          <figcaption>Python · analyse de tendances</figcaption>
+        </figure>
+        <figure class="shot chart zoomable" data-cat="python" data-hint="assets/graphs/python-correlation.png">
+          <img src="assets/graphs/python-correlation.png" alt="Matrice de corrélation">
+          <figcaption>Python · matrice de corrélation</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ EXPÉRIENCE ============ -->
+    <section class="section experience" id="experience">
+      <div class="section-head">
+        <div><h2>Un parcours orienté résultats.</h2></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="date">07/2023 — 07/2026</div>
+          <div class="timeline-line"></div>
+          <div>
+            <div class="role-head">
+              <!-- Logo : dépose ton fichier dans assets/logo-ugips-axa.png -->
+              <a class="org-link" href="https://www.ugipsgestion.fr/" target="_blank" rel="noopener noreferrer" aria-label="Visiter le site d'UGIPS GESTION">
+                <img class="org-logo" src="assets/logo-ugips.png" alt="Logo UGIPS GESTION / AXA" onerror="this.style.display='none'">
+              </a>
+              <div>
+                <h3>Data Analyst</h3>
+                <p class="company">
+                  <a href="https://www.ugipsgestion.fr/" target="_blank" rel="noopener noreferrer">UGIPS GESTION</a> · filiale AXA
+                  <a class="inline-logo-link" href="https://www.axa.fr/" target="_blank" rel="noopener noreferrer" aria-label="Visiter le site d'AXA">
+                    <img class="axa-logo" src="assets/axa.png" alt="Logo AXA" onerror="this.style.display='none'">
+                  </a>
+                </p>
+              </div>
+            </div>
+            <ul>
+              <li>Analyse, structuration et valorisation des données pour répondre aux enjeux opérationnels et accompagner la prise de décision.</li>
+              <li>Conception et automatisation de reportings et de dashboards Power BI pour suivre les KPI, identifier les tendances et faciliter le pilotage de l’activité.</li>
+              <li>Développement de solutions d’analyse en Python et SQL pour fiabiliser les traitements, automatiser les tâches récurrentes et améliorer la qualité des données.</li>
+              <li>Collaboration avec les équipes métier pour traduire leurs besoins en indicateurs, analyses et solutions data directement exploitables.</li>
+              <li>Restitution des résultats et des insights auprès des équipes métier pour faciliter leur compréhension et accompagner la prise de décision.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="date">10/2024</div>
+          <div class="timeline-line"></div>
+          <div>
+            <div class="role-head">
+              <!-- Logo : dépose ton fichier dans assets/logo-hetic.png -->
+              <a class="org-link" href="https://www.hetic.net/ecole-tech-web-et-numerique/ecole-web-internet" target="_blank" rel="noopener noreferrer" aria-label="Visiter le site de HETIC">
+                <img class="org-logo" src="assets/hetic-school.jpg" alt="Logo HETIC" onerror="this.style.display='none'">
+              </a>
+              <div>
+                <h3>Master 2 Data &amp; Intelligence Artificielle</h3>
+                <p class="company"><a href="https://www.hetic.net/ecole-tech-web-et-numerique/ecole-web-internet" target="_blank" rel="noopener noreferrer">HETIC</a> · Montreuil</p>
+              </div>
+            </div>
+            <p>Spécialité : analyse de données et intégration de l’IA dans le domaine de la Data Analysis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section skills" id="stack">
+      <div class="skills-copy">
+        <h2>Une stack solide.<br>Une vision métier.</h2>
+        <p>Je combine compétences techniques et capacité à traduire les résultats data en décisions compréhensibles par les équipes métier.</p>
+        <div class="language"><span>Français</span><b>Courant</b></div>
+        <div class="language"><span>Anglais</span><b>B2 · TOEIC</b></div>
+      </div>
+      <div class="skill-list">
+        <div class="skill" style="--lvl:95%"><span>Python</span><i></i><small>Excellent</small></div>
+        <div class="skill" style="--lvl:95%"><span>SQL</span><i></i><small>Excellent</small></div>
+        <div class="skill" style="--lvl:95%"><span>Power BI</span><i></i><small>Excellent</small></div>
+        <div class="skill" style="--lvl:90%"><span>Excel</span><i></i><small>Excellent</small></div>
+        <div class="skill" style="--lvl:90%"><span>IA</span><i></i><small>Excellent</small></div>
+        <div class="skill" style="--lvl:78%"><span>Databricks</span><i></i><small>Avancé</small></div>
+        <div class="skill" style="--lvl:78%"><span>DAX</span><i></i><small>Avancé</small></div>
+        <div class="skill" style="--lvl:78%"><span>Machine Learning</span><i></i><small>Avancé</small></div>
+        <div class="skill" style="--lvl:70%"><span>NLP</span><i></i><small>Pratiqué</small></div>
+        <div class="skill" style="--lvl:70%"><span>TensorFlow</span><i></i><small>Pratiqué</small></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="cta-section">
+      <h2>Construisons quelque chose d’utile avec la donnée.</h2>
+      <p>Vous cherchez un Data Analyst capable de relier technologie, analyse et enjeux métier ?</p>
+      <div class="cta-actions">
+        <a class="btn white" href="mailto:sylvaindiouf18@gmail.com"><i class="fa-solid fa-envelope"></i> sylvaindiouf18@gmail.com</a>
+        <a class="btn ghost" href="assets/CV-Sylvain-Diouf.pdf" download="CV-Sylvain-Diouf.pdf"><i class="fa-solid fa-download"></i> Télécharger mon CV</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/sylvain-diouf/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <span>© 2026 Sylvain Diouf</span>
+      <small>Data Analyst · Data × BI × IA</small>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:sylvaindiouf18@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/sylvain-diouf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Sylou2022?tab=repositories" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://assistant-data-ai.onrender.com/?__theme=light" target="_blank" rel="noopener" aria-label="Assistant Data AI"><i class="fa-solid fa-robot"></i></a>
+      <span class="discord-footer" title="Discord : Sylouuu#4271"><i class="fa-brands fa-discord"></i></span>
+    </div>
+    <a href="#top">Retour en haut ↑</a>
+  </footer>
+
+  <!-- Lightbox pour agrandir les graphiques -->
+  <dialog id="lightbox" aria-label="Image agrandie">
+    <button class="lb-close" aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+    <img alt="">
+    <p></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
