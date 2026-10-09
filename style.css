@@ -425,3 +425,150 @@ footer a { text-decoration: none; color: #333; }
 
 .company a.inline-logo-link { border-bottom: 0; }
 .axa-logo { height: 20px; width: auto; display: inline-block; vertical-align: middle; margin-left: 6px; }
+
+/* =========================================================
+   BOUTON THÈME + MODE SOMBRE
+========================================================= */
+.nav-actions { display: flex; align-items: center; gap: 12px; }
+
+.brand-group { display: flex; align-items: center; gap: 18px; }
+
+/* Interrupteur Light / Dark (style néomorphique) */
+.theme-switch {
+  position: relative; flex-shrink: 0; width: 138px; height: 44px; padding: 0; border: 0;
+  border-radius: 99px; cursor: pointer; overflow: hidden;
+  background: #eceef3;
+  box-shadow: inset 3px 3px 7px rgba(140,146,170,.5), inset -3px -3px 7px rgba(255,255,255,.95), 0 0 0 1px rgba(255,255,255,.7);
+  transition: background .35s ease, box-shadow .35s ease;
+}
+.theme-switch:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+
+.ts-label {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  font: 800 10px/1.15 var(--display); letter-spacing: .04em; text-transform: uppercase;
+  transition: opacity .3s ease; pointer-events: none;
+}
+.ts-light { left: 16px; color: #6b7189; text-align: left; }
+.ts-dark { right: 16px; color: #dfe2f0; text-align: right; opacity: 0; }
+
+.ts-knob {
+  position: absolute; top: 4px; left: calc(100% - 40px); width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 15px; color: #a9aec2;
+  background: linear-gradient(145deg, #fafbfd, #e4e7ee);
+  box-shadow: 2px 3px 7px rgba(60,66,90,.28), inset 1px 1px 3px #fff, inset -2px -2px 4px rgba(0,0,0,.05);
+  transition: left .35s cubic-bezier(.3,.8,.3,1), background .35s ease, color .35s ease;
+}
+.ts-knob .fa-moon { display: none; }
+
+[data-theme="dark"] .theme-switch {
+  background: #2a2e3f;
+  box-shadow: inset 3px 3px 8px rgba(0,0,0,.65), inset -2px -2px 6px rgba(255,255,255,.06), 0 0 0 1px rgba(255,255,255,.05);
+}
+[data-theme="dark"] .ts-light { opacity: 0; }
+[data-theme="dark"] .ts-dark { opacity: 1; }
+[data-theme="dark"] .ts-knob {
+  left: 4px; color: #b8bdd2;
+  background: linear-gradient(145deg, #f3f4f8, #d9dce6);
+  box-shadow: 2px 3px 8px rgba(0,0,0,.5), inset 1px 1px 3px #fff, inset -2px -2px 4px rgba(0,0,0,.08);
+}
+[data-theme="dark"] .ts-knob .fa-sun { display: none; }
+[data-theme="dark"] .ts-knob .fa-moon { display: block; }
+
+@media (max-width: 600px) {
+  .brand-group { gap: 10px; }
+  .brand { font-size: 20px; }
+  .theme-switch { width: 64px; height: 36px; }
+  .ts-label { display: none; }
+  .ts-knob { width: 28px; height: 28px; font-size: 13px; left: calc(100% - 32px); }
+}
+
+/* Transition douce lors du changement */
+body, .nav, .step, .step-panel, .benefit, .chip, .status, .ticker, .project, .shot, .social-links a {
+  transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+}
+
+[data-theme="dark"] {
+  --ink: #151833;
+  --ink-2: #1d2145;
+  --paper: #0b0d1a;
+  --card: #171a2e;
+  --line: #2a2e48;
+  --muted: #9aa0ba;
+  --violet-soft: #2a1f55;
+  color-scheme: dark;
+}
+[data-theme="dark"] body { color: #eceef8; }
+[data-theme="dark"] .nav { background: rgba(11,13,26,.86); }
+[data-theme="dark"] .nav nav a:hover,
+[data-theme="dark"] .nav nav a.active,
+[data-theme="dark"] .step:hover,
+[data-theme="dark"] .chip:hover { color: #fff; }
+
+/* Surfaces blanches → surfaces sombres */
+[data-theme="dark"] .status,
+[data-theme="dark"] .step,
+[data-theme="dark"] .step-panel,
+[data-theme="dark"] .benefit,
+[data-theme="dark"] .chip,
+[data-theme="dark"] .ticker { background: var(--card); }
+[data-theme="dark"] .social-links a,
+[data-theme="dark"] .discord-contact { background: var(--card); color: #d6d9ea; }
+[data-theme="dark"] .social-links a:hover { background: var(--ink-2); color: var(--violet-2); }
+[data-theme="dark"] .btn.secondary { border-color: var(--line); }
+[data-theme="dark"] .btn.secondary:hover { background: var(--card); }
+[data-theme="dark"] .btn.white { color: #0e1020; }
+
+/* Texte sur fonds violets */
+[data-theme="dark"] .tags span { color: #c4b5fd; }
+[data-theme="dark"] .step-example { color: #ddd3ff !important; }
+[data-theme="dark"] .step b { background: var(--ink-2); color: #d6d9ea; }
+[data-theme="dark"] .step.active, [data-theme="dark"] .chip.active { background: var(--violet); border-color: var(--violet); }
+
+/* Ticker, projets, images */
+[data-theme="dark"] .ticker-track span { color: #5c617a; }
+[data-theme="dark"] .ticker-track span:nth-child(3n) { color: var(--violet-2); }
+[data-theme="dark"] .project.dark { border: 1px solid var(--line); }
+[data-theme="dark"] .project.light { background: #1a1c33; }
+[data-theme="dark"] .project.light .project-content > p:not(.project-label),
+[data-theme="dark"] .media-caption { color: #aeb2c8; }
+[data-theme="dark"] .project.light .project-label { color: var(--violet-2); }
+[data-theme="dark"] .flow li { background: rgba(255,255,255,.05); border-color: var(--line); color: #d6d9ea; }
+[data-theme="dark"] .shot { background: var(--ink-2); }
+[data-theme="dark"] .shot.chart { background: #fff; }
+[data-theme="dark"] .shot.missing::before {
+  color: #8e93b3;
+  background: repeating-linear-gradient(45deg, #1d2145, #1d2145 10px, #181b38 10px, #181b38 20px);
+}
+
+/* Stack et footer */
+[data-theme="dark"] .skill i { background: var(--line); }
+[data-theme="dark"] footer a { color: #d6d9ea; }
+[data-theme="dark"] .footer-brand small { color: #7b8099; }
+
+
+/* =========================================================
+   PROJET 3 — SALES INTELLIGENCE
+========================================================= */
+
+.sales-dashboard-shot {
+  min-height: 320px;
+  aspect-ratio: 16 / 10;
+  background: var(--ink-2);
+}
+
+.sales-dashboard-shot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sales-dashboard-shot figcaption {
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .sales-dashboard-shot {
+    min-height: 220px;
+  }
+}

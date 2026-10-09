@@ -183,4 +183,18 @@
   const source = $("source", video);
   source.addEventListener("error", videoMissing);
   video.addEventListener("error", videoMissing);
+
+  /* ---------- Mode clair / sombre ---------- */
+  const themeBtn = $("#themeToggle");
+  const root = document.documentElement;
+  function applyTheme(t) {
+    root.dataset.theme = t;
+    themeBtn.setAttribute("aria-checked", t === "dark");
+    themeBtn.setAttribute("aria-label", t === "dark" ? "Passer en mode clair" : "Passer en mode sombre");
+    try { localStorage.setItem("theme", t); } catch (e) {}
+  }
+  applyTheme(root.dataset.theme === "dark" ? "dark" : "light");
+  themeBtn.addEventListener("click", () => {
+    applyTheme(root.dataset.theme === "dark" ? "light" : "dark");
+  });
 })();

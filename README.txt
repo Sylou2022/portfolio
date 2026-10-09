@@ -12,3 +12,9 @@ Ouvrir `index.html` dans un navigateur.
 
 ## Personnalisation
 Les coordonnées et le profil proviennent du CV. Les liens non présents dans le CV (GitHub, projets live, etc.) n'ont pas été inventés.
+
+
+
+..................
+
+

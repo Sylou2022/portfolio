@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio de Sylvain Diouf — Data Analyst spécialisé en Data, BI, Python, SQL et IA.">
-  <title>Sylvain Diouf — Data Analyst | Data × BI × IA</title>
+  <title> Data Analyst | Data Scientist × BI × IA</title>
+  <script>
+    try { document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"; } catch (e) {}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -16,8 +19,17 @@
 
   <!-- ============ NAVIGATION ============ -->
   <header class="nav">
-    <a class="brand" href="#top">Mon Portfolio</a>
-    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <div class="brand-group">
+      <a class="brand" href="#top">Sylvain Diouf</a>
+      <button class="theme-switch" id="themeToggle" role="switch" aria-checked="false" aria-label="Passer en mode sombre" title="Changer de thème">
+        <span class="ts-label ts-light">Light<br>Mode</span>
+        <span class="ts-label ts-dark">Dark<br>Mode</span>
+        <span class="ts-knob">
+          <i class="fa-solid fa-sun"></i>
+          <i class="fa-solid fa-moon"></i>
+        </span>
+      </button>
+    </div>
     <nav id="menu">
       <a href="#data">La donnée</a>
       <a href="#projects">Projets</a>
@@ -25,10 +37,13 @@
       <a href="#experience">Parcours</a>
       <a href="#stack">Stack</a>
     </nav>
-    <!-- Place ton CV dans assets/CV-Sylvain-Diouf.pdf -->
-    <a class="nav-cta" href="assets/CV-Sylvain-Diouf.pdf" download="CV-Sylvain-Diouf.pdf">
-      <i class="fa-solid fa-download"></i> Télécharger mon CV
-    </a>
+    <div class="nav-actions">
+      <!-- Place ton CV dans assets/CV-Sylvain-Diouf.pdf -->
+      <a class="nav-cta" href="assets/CV-Sylvain-Diouf.pdf" download="CV-Sylvain-Diouf.pdf">
+        <i class="fa-solid fa-download"></i> Télécharger mon CV
+      </a>
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
   </header>
 
   <main id="top">
@@ -39,7 +54,7 @@
         <p class="status"><span class="pulse"></span> Data Analyst · disponible pour de nouveaux défis</p>
         <h1>Je transforme la donnée<br><span class="grad">en décisions.</span></h1>
         <p class="hero-text">
-          Data Analyst avec 3 ans d’expérience en analyse, reporting BI, automatisation et IA.
+          Data Analyst avec 3 ans d’expérience en analyse , reporting BI, Business Intelligence & IA et 2 ans en Software Engineering. 
           Je construis des solutions qui rendent la donnée utile, concrètement, aux équipes métier.
         </p>
 
@@ -69,7 +84,7 @@
       <div class="hero-visual">
         <figure class="photo">
           <img src="assets/sylvain.jpg" alt="Portrait de Sylvain Diouf">
-          <figcaption><strong>Sylvain Diouf</strong><span>Data Analyst · Data × BI × IA</span></figcaption>
+          <figcaption><span>Data Analyst | Data Scientist × BI × IA</span></figcaption>
         </figure>
 
         <!-- Démo animée : question → SQL → insight -->
@@ -187,7 +202,7 @@
       <!-- Projet 2 : Assistant Data AI -->
       <article class="project light reveal">
         <div class="project-content">
-          <p class="project-label">Projet personnel · Data et IA</p>
+          <p class="project-label">Projet personnel · Data et Intelligence Artificielle</p>
           <div class="title-row">
             <!-- Icône : dépose ton fichier dans assets/assistant-data-ai-icon.png -->
             <img class="app-icon" src="assets/assistant-data-ai-icon.png" alt="Icône Assistant Data AI" onerror="this.style.display='none'">
@@ -197,7 +212,7 @@
           <ol class="flow">
             <li>Question métier</li><li>SQL généré</li><li>Validation</li><li>Insight</li>
           </ol>
-          <div class="tags"><span>Python</span><span>Gradio</span><span>SQL</span><span>IA</span></div>
+          <div class="tags"><span>Python</span><span>Gradio</span><span>SQL</span><span>IA</span><span>Render</span></div>
           <a class="btn primary app-btn" href="https://assistant-data-ai.onrender.com/?__theme=light" target="_blank" rel="noopener">
             <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir l’application
           </a>
@@ -219,6 +234,88 @@
           <p class="media-caption"><i class="fa-solid fa-circle status-dot"></i> Application en ligne · démo en vidéo</p>
         </div>
       </article>
+    <!--===================================================troisieme projet=============================================-->
+    
+    <!-- Projet 3 : Sales Intelligence & Forecasting -->
+    <article class="project dark reveal">
+
+      <div class="project-content">
+
+        <p class="project-label">
+          Projet personnel · Business Intelligence et Machine Learning
+        </p>
+
+        <h3>Plateforme d’analyse commerciale et de prévision des ventes</h3>
+
+        <p>
+          Concevoir une plateforme décisionnelle qui transforme les données
+          de ventes en indicateurs fiables et en prévisions exploitables.
+          Le projet combine une base SQL, des contrôles de qualité,
+          un dashboard interactif et un modèle de prévision des ventes.
+        </p>
+
+        <div class="impact-row">
+          <div>
+            <b>SQL</b>
+            <span>Modélisation & qualité</span>
+          </div>
+          <div>
+            <b>BI</b>
+            <span>Pilotage commercial</span>
+          </div>
+          <div>
+            <b>ML</b>
+            <span>Prévision des ventes</span>
+          </div>
+        </div>
+
+        <div class="tags light">
+          <span>Python</span>
+          <span>SQL Server</span>
+          <span>Power BI</span>
+          <span>DAX</span>
+          <span>Pandas</span>
+          <span>Scikit-learn</span>
+          <span>Git</span>
+        </div>
+
+        <ol class="flow">
+          <li>Collecte</li>
+          <li>Nettoyage</li>
+          <li>SQL</li>
+          <li>Dashboard</li>
+          <li>Prévision</li>
+        </ol>
+
+
+
+      </div>
+
+      <div class="project-media">
+
+        <figure class="ventes-commercial-dashboard">
+          <img
+            src="assets/ventes-commercial-dashboard.png"
+            alt="Maquette du dashboard Sales Intelligence :
+            chiffre d'affaires, prévisions, performances régionales
+            et alertes commerciales"
+            loading="lazy"
+          >
+          <figcaption>
+            Maquette du dashboard
+          </figcaption>
+        </figure>
+
+        <p class="media-caption">
+          <i class="fa-solid fa-chart-line status-dot"></i>
+          Dashboard de démonstration · données illustratives
+        </p>
+
+      </div>
+
+    </article>
+
+    <!--===========================================================================================================-->    
     </section>
 
     <!-- =================== GALERIE ============ -->
@@ -313,6 +410,23 @@
               </div>
             </div>
             <p>Spécialité : analyse de données et intégration de l’IA dans le domaine de la Data Analysis.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="date">07/2020</div>
+          <div class="timeline-line"></div>
+          <div>
+            <div class="role-head">
+              <!-- Logo : dépose ton fichier dans assets/logo-imbt.png -->
+              <a class="org-link" href="https://imbt.ma/" target="_blank" rel="noopener noreferrer" aria-label="Visiter le site de l'IMBT">
+                <img class="org-logo" src="assets/logo-imbt.png" alt="Logo IMBT" onerror="this.style.display='none'">
+              </a>
+              <div>
+                <h3>Licence</h3>
+                <p class="company"><a href="https://imbt.ma/" target="_blank" rel="noopener noreferrer">Institut de Management &amp; Business Technology (IMBT)</a></p>
+              </div>
+            </div>
+            <p>Formation axée sur le Software Engineering.</p>
           </div>
         </div>
       </div>
