@@ -7,6 +7,7 @@ Portfolio web responsive créé à partir du CV fourni.
 - `style.css` : design responsive
 - `script.js` : animations d'apparition au scroll
 
+##################################
 ## Utilisation
 Ouvrir `index.html` dans un navigateur.
 
