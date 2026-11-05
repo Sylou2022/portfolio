@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a6b00"/><stop offset=".6" stop-color="#d4a017"/><stop offset="1" stop-color="#f5d27a"/></linearGradient>
+<linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4a017" stop-opacity=".35"/><stop offset="1" stop-color="#d4a017" stop-opacity="0"/></linearGradient>
+<radialGradient id="bg" cx="15%" cy="0%" r="110%"><stop offset="0" stop-color="#1c2560"/><stop offset="1" stop-color="#0a0e28"/></radialGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="760" rx="22" fill="url(#bg)"/>
+<rect x="24" y="22" width="8" height="34" rx="4" fill="url(#g)"/>
+<text x="46" y="48" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#eef0fa" text-anchor="start" >HR analytics · Headcount, hiring &amp; productivity</text>
+<rect x="915" y="24" width="261" height="30" rx="15" fill="none" stroke="#d4a017" stroke-opacity=".55"/>
+<text x="1045.6000000000001" y="44" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f5d27a" text-anchor="middle" >Source: Salesforce + business data</text>
+<rect x="781" y="24" width="124" height="30" rx="15" fill="none" stroke="#d4a017" stroke-opacity=".55"/>
+<text x="843.2" y="44" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f5d27a" text-anchor="middle" >All departments</text>
+<rect x="726" y="24" width="45" height="30" rx="15" fill="none" stroke="#d4a017" stroke-opacity=".55"/>
+<text x="748.8000000000001" y="44" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#f5d27a" text-anchor="middle" >2025</text>
+<rect x="46" y="70" width="75" height="28" rx="14" fill="url(#g)"/>
+<text x="83.6" y="89" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1405" text-anchor="middle" >HR view</text>
+<rect x="131" y="70" width="113" height="28" rx="14" fill="#161c42" stroke="#262d5c"/>
+<text x="187.79999999999998" y="89" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#9aa0c0" text-anchor="middle" >Manager view</text>
+<rect x="254" y="70" width="136" height="28" rx="14" fill="#161c42" stroke="#262d5c"/>
+<text x="322.4" y="89" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#9aa0c0" text-anchor="middle" >Leadership view</text>
+<rect x="24.0" y="114" width="276.0" height="104" rx="16" fill="#161c42" stroke="#262d5c"/>
+<rect x="24.0" y="114" width="4" height="104" rx="2" fill="url(#g)"/>
+<text x="44.0" y="144" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#9aa0c0" text-anchor="start" >Total headcount</text>
+<text x="44.0" y="184" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="#f5d27a" text-anchor="start" filter="url(#glow)">1,248</text>
+<text x="44.0" y="206" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7ee2a8" text-anchor="start" >+3.2% vs last year</text>
+<polyline fill="none" stroke="#d4a017" stroke-width="2" stroke-linecap="round" points="190,184 205,175 220,171 235,174 250,179 265,182 280,178"/>
+<rect x="316.0" y="114" width="276.0" height="104" rx="16" fill="#161c42" stroke="#262d5c"/>
+<rect x="316.0" y="114" width="4" height="104" rx="2" fill="url(#g)"/>
+<text x="336.0" y="144" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#9aa0c0" text-anchor="start" >Planned hires next Q</text>
+<text x="336.0" y="184" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="#f5d27a" text-anchor="start" filter="url(#glow)">46</text>
+<text x="336.0" y="206" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9aa0c0" text-anchor="start" >model forecast</text>
+<polyline fill="none" stroke="#d4a017" stroke-width="2" stroke-linecap="round" points="482,176 497,173 512,177 527,182 542,184 557,179 572,170"/>
+<rect x="608.0" y="114" width="276.0" height="104" rx="16" fill="#161c42" stroke="#262d5c"/>
+<rect x="608.0" y="114" width="4" height="104" rx="2" fill="url(#g)"/>
+<text x="628.0" y="144" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#9aa0c0" text-anchor="start" >Average productivity</text>
+<text x="628.0" y="184" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="#f5d27a" text-anchor="start" filter="url(#glow)">92%</text>
+<text x="628.0" y="206" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7ee2a8" text-anchor="start" >target 90%</text>
+<polyline fill="none" stroke="#d4a017" stroke-width="2" stroke-linecap="round" points="774,176 789,180 804,185 819,186 834,181 849,171 864,163"/>
+<rect x="900.0" y="114" width="276.0" height="104" rx="16" fill="#161c42" stroke="#262d5c"/>
+<rect x="900.0" y="114" width="4" height="104" rx="2" fill="url(#g)"/>
+<text x="920.0" y="144" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#9aa0c0" text-anchor="start" >Open positions</text>
+<text x="920.0" y="184" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="#f5d27a" text-anchor="start" filter="url(#glow)">18</text>
+<text x="920.0" y="206" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9aa0c0" text-anchor="start" >avg. time 34 days</text>
+<polyline fill="none" stroke="#d4a017" stroke-width="2" stroke-linecap="round" points="1066,183 1081,188 1096,189 1111,182 1126,172 1141,165 1156,163"/>
+<rect x="24" y="236" width="760" height="262" rx="16" fill="#161c42" stroke="#262d5c"/><text x="44" y="268" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#eef0fa" text-anchor="start" >Headcount: history and forecast</text>
+<rect x="678" y="257" width="18" height="12" fill="#d4a017" fill-opacity=".18"/>
+<text x="702" y="268" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9aa0c0" text-anchor="start" >Interval</text>
+<line x1="592" y1="263" x2="610" y2="263" stroke="#f5d27a" stroke-width="3" stroke-dasharray="4 4"/>
+<text x="616" y="268" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9aa0c0" text-anchor="start" >Forecast</text>
+<line x1="513" y1="263" x2="531" y2="263" stroke="#d4a017" stroke-width="3"/>
+<text x="537" y="268" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9aa0c0" text-anchor="start" >History</text>
+<line x1="74" y1="296" x2="754" y2="296" stroke="#262d5c" stroke-dasharray="2 5"/>
+<text x="64" y="300.0" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#9aa0c0" text-anchor="end" >1300</text>
+<line x1="74" y1="336" x2="754" y2="336" stroke="#262d5c" stroke-dasharray="2 5"/>
+<text x="64" y="340.5" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#9aa0c0" text-anchor="end" >1250</text>
+<line x1="74" y1="377" x2="754" y2="377" stroke="#262d5c" stroke-dasharray="2 5"/>
+<text x="64" y="381.0" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#9aa0c0" text-anchor="end" >1200</text>
+<line x1="74" y1="418" x2="754" y2="418" stroke="#262d5c" stroke-dasharray="2 5"/>
+<text x="64" y="421.5" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#9aa0c0" text-anchor="end" >1150</text>
+<line x1="74" y1="458" x2="754" y2="458" stroke="#262d5c" stroke-dasharray="2 5"/>
+<text x="64" y="462.0" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#9aa0c0" text-anchor="end" >1100</text>
+<polygon fill="#d4a017" fill-opacity=".16" points="608,333 657,321 705,310 754,298 754,341 705,342 657,342 608,343"/>
+<polygon fill="url(#area)" points="74,392 123,385 171,380 220,373 268,376 317,366 365,359 414,362 463,353 511,348 560,344 608,338 608,458 74,458"/>
+<polyline fill="none" stroke="url(#g)" stroke-width="3.5" stroke-linejoin="round" filter="url(#glow)" points="74,392 123,385 171,380 220,373 268,376 317,366 365,359 414,362 463,353 511,348 560,344 608,338"/>
+<polyline fill="none" stroke="#f5d27a" stroke-width="3" stroke-dasharray="7 6" points="608,338 657,332 705,326 754,319"/>
+<circle cx="74" cy="392" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="171" cy="380" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="268" cy="376" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="365" cy="359" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="463" cy="353" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="560" cy="344" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<circle cx="608" cy="338" r="3.5" fill="#0d1230" stroke="#d4a017" stroke-width="2"/>
+<line x1="608" y1="296" x2="608" y2="458" stroke="#d4a017" stroke-opacity=".5" stroke-dasharray="3 4"/>
+<text x="74.0" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >J</text>
+<text x="122.57142857142857" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >F</text>
+<text x="171.14285714285714" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >M</text>
+<text x="219.71428571428572" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >A</text>
+<text x="268.2857142857143" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >M</text>
+<text x="316.8571428571429" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >J</text>
+<text x="365.42857142857144" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >J</text>
+<text x="414.0" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >A</text>
+<text x="462.57142857142856" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >S</text>
+<text x="511.14285714285717" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >O</text>
+<text x="559.7142857142858" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >N</text>
+<text x="608.2857142857143" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >D</text>
+<text x="656.8571428571429" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >J</text>
+<text x="705.4285714285714" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >F</text>
+<text x="754.0" y="480" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9aa0c0" text-anchor="middle" >M</text>
+<rect x="800" y="236" width="376" height="262" rx="16" fill="#161c42" stroke="#262d5c"/><text x="820" y="268" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#eef0fa" text-anchor="start" >Hiring needs by department</text>
+<circle cx="900" cy="386" r="70" fill="none" stroke="#d4a017" stroke-width="24" stroke-dasharray="150.0 289.8" stroke-dashoffset="0.0" transform="rotate(-90 900 386)"/>
+<circle cx="900" cy="386" r="70" fill="none" stroke="#f5d27a" stroke-width="24" stroke-dasharray="102.2 337.6" stroke-dashoffset="-153.0" transform="rotate(-90 900 386)"/>
+<circle cx="900" cy="386" r="70" fill="none" stroke="#8b5cf6" stroke-width="24" stroke-dasharray="73.5 366.3" stroke-dashoffset="-258.2" transform="rotate(-90 900 386)"/>
+<circle cx="900" cy="386" r="70" fill="none" stroke="#5b8def" stroke-width="24" stroke-dasharray="54.4 385.5" stroke-dashoffset="-334.6" transform="rotate(-90 900 386)"/>
+<circle cx="900" cy="386" r="70" fill="none" stroke="#7ee2a8" stroke-width="24" stroke-dasharray="44.8 395.0" stroke-dashoffset="-392.0" transform="rotate(-90 900 386)"/>
+<text x="900" y="392" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#f5d27a" text-anchor="middle" >46</text>
+<text x="900" y="412" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#9aa0c0" text-anchor="middle" >roles</text>
+<rect x="996" y="316" width="11" height="11" rx="3" fill="#d4a017"/>
+<text x="1014" y="326" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#eef0fa" text-anchor="start" >Customer service</text>
+<text x="1158" y="326" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="end" >16</text>
+<rect x="996" y="344" width="11" height="11" rx="3" fill="#f5d27a"/>
+<text x="1014" y="354" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#eef0fa" text-anchor="start" >Operations</text>
+<text x="1158" y="354" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="end" >11</text>
+<rect x="996" y="372" width="11" height="11" rx="3" fill="#8b5cf6"/>
+<text x="1014" y="382" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#eef0fa" text-anchor="start" >IT</text>
+<text x="1158" y="382" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="end" >8</text>
+<rect x="996" y="400" width="11" height="11" rx="3" fill="#5b8def"/>
+<text x="1014" y="410" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#eef0fa" text-anchor="start" >Accounting</text>
+<text x="1158" y="410" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="end" >6</text>
+<rect x="996" y="428" width="11" height="11" rx="3" fill="#7ee2a8"/>
+<text x="1014" y="438" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#eef0fa" text-anchor="start" >HR</text>
+<text x="1158" y="438" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="end" >5</text>
+<rect x="24" y="514" width="760" height="222" rx="16" fill="#161c42" stroke="#262d5c"/><text x="44" y="546" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#eef0fa" text-anchor="start" >Productivity by department</text>
+<text x="180" y="584" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#9aa0c0" text-anchor="end" >Customer service</text>
+<rect x="194" y="570" width="530" height="18" rx="9" fill="#262d5c" fill-opacity=".6"/>
+<rect x="194" y="570" width="509" height="18" rx="9" fill="url(#g)"/>
+<text x="736" y="584" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >96%</text>
+<text x="180" y="615" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#9aa0c0" text-anchor="end" >Operations</text>
+<rect x="194" y="601" width="530" height="18" rx="9" fill="#262d5c" fill-opacity=".6"/>
+<rect x="194" y="601" width="477" height="18" rx="9" fill="url(#g)"/>
+<text x="736" y="615" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >90%</text>
+<text x="180" y="646" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#9aa0c0" text-anchor="end" >IT</text>
+<rect x="194" y="632" width="530" height="18" rx="9" fill="#262d5c" fill-opacity=".6"/>
+<rect x="194" y="632" width="456" height="18" rx="9" fill="#8b5cf6"/>
+<text x="736" y="646" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#c4b5fd" text-anchor="start" >86%</text>
+<text x="180" y="677" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#9aa0c0" text-anchor="end" >Accounting</text>
+<rect x="194" y="663" width="530" height="18" rx="9" fill="#262d5c" fill-opacity=".6"/>
+<rect x="194" y="663" width="498" height="18" rx="9" fill="url(#g)"/>
+<text x="736" y="677" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >94%</text>
+<text x="180" y="708" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#9aa0c0" text-anchor="end" >HR</text>
+<rect x="194" y="694" width="530" height="18" rx="9" fill="#262d5c" fill-opacity=".6"/>
+<rect x="194" y="694" width="498" height="18" rx="9" fill="url(#g)"/>
+<text x="736" y="708" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >94%</text>
+<line x1="671" y1="560" x2="671" y2="724" stroke="#eef0fa" stroke-opacity=".7" stroke-dasharray="4 4"/>
+<text x="671.0" y="554" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#eef0fa" text-anchor="middle" >Target 90%</text>
+<rect x="800" y="514" width="376" height="222" rx="16" fill="#161c42" stroke="#262d5c"/><text x="820" y="546" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#eef0fa" text-anchor="start" >Management alerts</text>
+<rect x="816" y="570" width="344" height="40" rx="10" fill="#0d1230" stroke="#d4a017" stroke-opacity=".35"/>
+<circle cx="836" cy="590" r="9" fill="#d4a017" fill-opacity=".2" stroke="#d4a017"/>
+<text x="836" y="595" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="middle" >!</text>
+<text x="856" y="587" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >Operations</text>
+<text x="856" y="603" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9aa0c0" text-anchor="start" >understaffing expected in Q1</text>
+<rect x="816" y="620" width="344" height="40" rx="10" fill="#0d1230" stroke="#d4a017" stroke-opacity=".35"/>
+<circle cx="836" cy="640" r="9" fill="#d4a017" fill-opacity=".2" stroke="#d4a017"/>
+<text x="836" y="645" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="middle" >!</text>
+<text x="856" y="637" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >IT</text>
+<text x="856" y="653" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9aa0c0" text-anchor="start" >productivity −4 pts vs target</text>
+<rect x="816" y="670" width="344" height="40" rx="10" fill="#0d1230" stroke="#d4a017" stroke-opacity=".35"/>
+<circle cx="836" cy="690" r="9" fill="#d4a017" fill-opacity=".2" stroke="#d4a017"/>
+<text x="836" y="695" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="middle" >!</text>
+<text x="856" y="687" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f5d27a" text-anchor="start" >Customer service</text>
+<text x="856" y="703" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9aa0c0" text-anchor="start" >hiring peak in March</text>
+<text x="1170" y="756" font-family="Calibri, 'Segoe UI', Arial, sans-serif" font-size="1" font-weight="400" fill="#eef0fa" text-anchor="start" ></text>
+</svg>
